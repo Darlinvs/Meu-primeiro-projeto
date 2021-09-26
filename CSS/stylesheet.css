@@ -1,0 +1,144 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+    background-image: linear-gradient(to right, #ffff, bisque)
+}
+/*PÁGINA PRINCIPAL*/
+
+.container-principal{
+    font-family: verdana;
+}
+
+header{width: 100%; 
+       height: 80px; 
+       position: relative; 
+       top: 0;
+       margin-bottom: 5px;
+    }
+
+nav{
+    position: absolute;
+     right: 20px; 
+    }
+
+nav ul li{
+    float: left;
+     color: coral; 
+     width: auto;
+     margin: 0.9em; 
+     font-size: 1.2em; 
+     font-family: verdana; 
+     list-style:circle; color: #ffff;
+    }
+
+nav ul li a{
+    text-decoration: none; 
+    color:coral}
+
+nav ul li a:hover{
+    color: white; 
+}
+.paginainicial{
+    display: flex;
+}
+
+#apresentação{
+    width: 55%;
+    display: inline-block; 
+}
+
+.titulo{
+    font-size: 50px; 
+    color:#b13030; 
+    text-align: center; 
+    margin-top: 5px; 
+    margin-left: auto;
+    margin-top: 200px;
+}
+
+.subtitulo{
+    font-size: 30px; 
+    color: #b13030; 
+    text-align: center; 
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+#fotopessoal{
+    width: 40%;
+    display: inline-block;
+    
+}
+
+.foto { width: 340px;
+        position: relative;
+        height: 340px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        border-style: outset; 
+        border-color: #ffff;
+        
+}
+
+.contatos{
+    text-align: center;
+    margin-top: 95px;
+    background-color: #fff;
+}
+
+.contatos a{
+    text-decoration: none;
+    margin: 0.8em;
+    color: coral;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.contatos a:hover {
+    color: darkblue;
+}
+
+/*SOBRE MIM*/
+
+h1{
+    color: brown;
+    text-align: center;
+    margin-top: 10px;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+
+.cursos {
+   text-align: center;
+   color: coral;
+}
+
+#fotoestudante img{
+    height:200px;
+    width: auto;
+    margin-top: 95px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/*HABILIDADES*/
+
+.conteudo{
+    text-align: center;
+    color: coral;
+    font-size: 1.3em;
+}
+
+#fotolinguagens img{
+    height: 200px;
+    width: auto;
+    float: right;
+}
+
+
+
+
+
